@@ -1,9 +1,9 @@
 def turn_count(board)
-  counter = 0
+  counter = 0;
   board.each do |slot|
     if(slot == "X" || slot == "O")
-      counter += 1
+      counter += 1;
     end
   end
-  return counter
+  return counter;
 end
